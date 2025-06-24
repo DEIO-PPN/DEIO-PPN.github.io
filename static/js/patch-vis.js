@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const thumbnailsHtml = thumbnailData.map(name => `
         <img src="https://easi3r.github.io/static/thumbs/${name}.jpg" 
-             data-video="https://easi3r.github.io/static/videos/attn/${name}.mp4"
+             data-video="https://easi3r.github.io/static/videos/mask/${name}.mp4"
              class="thumbnail mask-thumbnail" 
              alt="${name}" 
              style="cursor: pointer; width: 100px;">
