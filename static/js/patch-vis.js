@@ -19,11 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="column is-full panel-style">
                     <h2 class="title is-4">Dynamic Object Segmentation</h2>
                     <p style="max-width: 90%; margin: 0 auto; text-align: left;">
-                        The refined dynamic attention map 
-                        \\( \\mathbf{A}^{t=\\text{dyn}}_{\\text{fuse}} \\in \\mathbb{R}^{h \\times w} \\) 
-                        is used to infer the dynamic object segmentation by
-                        \\( \\mathbf{M}^{t}(x,y) = 𝟙[\\mathbf{A}^{t=\\text{dyn}}_{\\text{fuse}}(x,y) > \\alpha] \\), 
-                        where \\( \\alpha \\) is an automatic image thresholding using <a href="https://en.wikipedia.org/wiki/Otsu%27s_method">Otsu's method</a>.
+                        We visualize the ***.
                     </p>
                     <br>
                     <div class="video-container">
