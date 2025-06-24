@@ -69,10 +69,23 @@
             margin: 20px auto 10px;
             max-width: 100%;
         }
-      
-        .dynamic-section {
-            display: block;
+    
+    .video-container {
+            position: relative;
+            width: 95%;
+            margin: 0 auto;
         }
+
+    .video-labels {
+        display: flex;
+        justify-content: space-between;
+        margin-top: auto;
+        align-items: center;
+    }
+      
+    .dynamic-section {
+        display: block;
+    }
 
     </style>
 </head>
@@ -229,11 +242,13 @@
     </div>
 </section>
 
+  
 <!-- 插入可视化特征图 -->
-<script defer src="./static/js/attn-vis.js"></script>
+<script defer src="./static/js/patch-vis.js"></script>
 <section id="attn-vis" class="section dynamic-section" style="padding-top: 0rem;">
 </section>
 
+  
 <section class="section">
     <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
