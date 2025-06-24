@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(style);
 
-    const section = document.getElementById('mask-vis');
+    const section = document.getElementById('patch-vis');
     section.innerHTML = content;
     section.style.display = 'block';
 
