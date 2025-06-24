@@ -37,12 +37,15 @@
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <!-- <link rel="stylesheet" href="./static/css/bulma.min.css"> -->
+  <!-- <link rel="stylesheet" href="./static/css/bulma-carousel.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  
   <link rel="stylesheet" href="./static/css/index.css">
   <!-- <link rel="icon" href="https://kwanwaipang.github.io/Poster_files/hku_logo.jpg"> -->
 
@@ -51,6 +54,24 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <style>
+      .panel-style {
+          background-color: #fafafa;
+          padding: 20px;
+          margin: 20px auto;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+      }
+      .thumbnail-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px auto 10px;
+            max-width: 100%;
+        }
+
+    </style>
 </head>
 <body>
 
@@ -186,6 +207,7 @@
 
 <!-- 参考代码：https://github.com/nerfies/nerfies.github.io/blob/main/index.html -->
 <!-- 对应网页效果：https://nerfies.github.io/ -->
+ <!-- 参考点击小图可视化feature map：https://github.com/Easi3R/Easi3R.github.io/ -->
 
 
 <!-- <section class="section has-background-light"> -->
@@ -202,6 +224,11 @@
             </div>
         </div>
     </div>
+</section>
+
+<!-- 插入可视化特征图 -->
+<script defer src="./static/js/attn-vis.js"></script>
+<section id="attn-vis" class="section dynamic-section" style="padding-top: 0rem;">
 </section>
 
 <section class="section">
