@@ -17,18 +17,18 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="container is-max-desktop">
             <div class="columns is-centered has-text-centered">
                 <div class="column is-full panel-style">
-                    <h2 class="title is-4">Dynamic Object Segmentation</h2>
+                    <h2 class="title is-4">Visualization of the Patch Selection</h2>
                     <p style="max-width: 90%; margin: 0 auto; text-align: left;">
                         We visualize the ***.
                     </p>
                     <br>
                     <div class="video-container">
                         <div class="video-labels">
-                            <span class="video-label">Input Video</span>
-                            <span class="video-label">MonST3R</span>
-                            <span class="video-label">DAS3R</span>
-                            <span class="video-label">Ours</span>
-                            <span class="video-label">GT</span>
+                            <span class="video-label">Input Event</span>
+                            <span class="video-label">Image View</span>
+                            <span class="video-label">Feature Map</span>
+                            <span class="video-label">Score Map</span>
+                            <span class="video-label">Patch Selection</span>
                         </div>
                         <div id="mask-video-container" style="width: 100%; position: relative; aspect-ratio: 4678/532;">
                             <video id="mask-video" autoplay muted loop playsinline disablePictureInPicture controlsList="nodownload nofullscreen" style="width: 100%; height: 100%;">
