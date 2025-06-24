@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <br>
                     <div class="video-container">
                         <div class="video-labels">
-                            <span class="video-label">Input Event</span>
                             <span class="video-label">Image View</span>
+                            <span class="video-label">Input Event</span>
                             <span class="video-label">Feature Map</span>
                             <span class="video-label">Score Map</span>
                             <span class="video-label">Patch Selection</span>
