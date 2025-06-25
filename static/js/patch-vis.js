@@ -1,13 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // const thumbnailData = [
+    //     'koala', 'mbike-trick', 'schoolgirls', 'dog-gooses', 
+    //     'goat', 'rhino', 'crossing', 'elephant',
+    //     'drift-chicane', 'bear', 'judo', 'bike-packing'
+    // ];
+    // https://easi3r.github.io/static/thumbs/${name}.jpg
+    // https://easi3r.github.io/static/videos/mask/${name}.mp4
+
     const thumbnailData = [
-        'koala', 'mbike-trick', 'schoolgirls', 'dog-gooses', 
-        'goat', 'rhino', 'crossing', 'elephant',
-        'drift-chicane', 'bear', 'judo', 'bike-packing'
+        'dsec_zurich_city_04_b_0.50_5.45'
     ];
 
     const thumbnailsHtml = thumbnailData.map(name => `
-        <img src="https://easi3r.github.io/static/thumbs/${name}.jpg" 
-             data-video="https://easi3r.github.io/static/videos/mask/${name}.mp4"
+        <img src="https://demo-eio.github.io/media/Patch_Selection/${name}.png" 
+             data-video="https://demo-eio.github.io/media/Patch_Selection/${name}.mp4"
              class="thumbnail mask-thumbnail" 
              alt="${name}" 
              style="cursor: pointer; width: 100px;">
@@ -31,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="video-label">Selected Patch</span>
                         </div>
                         <div id="mask-video-container" style="width: 100%; position: relative; aspect-ratio: 4678/532;">
-                            <video id="mask-video" autoplay muted loop playsinline disablePictureInPicture controlsList="nodownload nofullscreen" style="width: 100%; height: 100%;">
+                            <video id="mask-video" autoplay muted loop playsinline disablePictureInPicture controlsList="nodownload nofullscreen" style="width: 150%; height: auto;">
                                 <source id="mask-video-source" type="video/mp4">
                             </video>
                         </div>
