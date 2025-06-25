@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="video-container">
                         <div class="video-labels">
                             <span class="video-label">Image View</span>
-                            <span class="video-label">Input Event</span>
+                            <span class="video-label">Event Voxel</span>
                             <span class="video-label">Feature Map</span>
                             <span class="video-label">Score Map</span>
-                            <span class="video-label">Patch Selection</span>
+                            <span class="video-label">Selected Patch</span>
                         </div>
                         <div id="mask-video-container" style="width: 100%; position: relative; aspect-ratio: 4678/532;">
                             <video id="mask-video" autoplay muted loop playsinline disablePictureInPicture controlsList="nodownload nofullscreen" style="width: 100%; height: 100%;">
