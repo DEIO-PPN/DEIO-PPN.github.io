@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <br>
                     <div class="video-container">
                         <div class="video-labels">
-                            <span class="video-label">Image View</span>
                             <span class="video-label">Event Voxel</span>
+                            <span class="video-label">Image View</span>
                             <span class="video-label">Feature Map</span>
                             <span class="video-label">Score Map</span>
                             <span class="video-label">Selected Patch</span>
