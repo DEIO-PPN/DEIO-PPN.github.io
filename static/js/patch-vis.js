@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="column is-full panel-style">
                     <h2 class="title is-4">Visualization of the Patch Selection</h2>
                     <p style="max-width: 90%; margin: 0 auto; text-align: left;">
-                        We visualize the ***.
+                        We visualize the selected event patch and the estimated score map form DEMO, along with the event voxel (input), image (only for visualization), and the feature space for event-based optical flow prediction.
                     </p>
                     <br>
                     <div class="video-container">
