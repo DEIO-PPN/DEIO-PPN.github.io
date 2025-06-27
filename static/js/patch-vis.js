@@ -8,12 +8,26 @@ document.addEventListener('DOMContentLoaded', () => {
     // https://easi3r.github.io/static/videos/mask/${name}.mp4
 
     const thumbnailData = [
-        'dsec_zurich_city_04_b_0.50_5.45'
+        'HKU_HDR_circle_27.39_30.09',
+        'dsec_zurich_city_04_b_0.50_5.45',
+        'dsec_zurich_city_04_b_1.50_6.45',
+        'dsec_zurich_city_04_c_1.20_6.15',
+        'dsec_zurich_city_04_e_1.05_6.00',
+        'hdr_boxes_28.31_32.58',
+        'hku_aggressive_walk_26.39_30.70',
+        'hku_dark_normal_27.42_31.71',
+        'indoor_forward_3_davis_with_gt_32.81_36.94',
+        'indoor_forward_5_davis_with_gt_33.07_38.24',
+        'indoor_forward_7_davis_with_gt_35.46_40.36',
+        'mocap-1d-trans_8.62_13.57',
+        'mocap-6dof_7.34_12.29',
+        'mocap-desk_9.11_14.06',
+        'poster_6dof_29.69_34.06',
     ];
 
     const thumbnailsHtml = thumbnailData.map(name => `
         <img src="https://demo-eio.github.io/media/Patch_Selection/${name}.png" 
-             data-video="https://demo-eio.github.io/media/Patch_Selection/${name}.mp4"
+             data-video="https://demo-eio.github.io/media/Patch_Selection/col6/${name}.mp4"
              class="thumbnail mask-thumbnail" 
              alt="${name}" 
              style="cursor: pointer; width: 100px;">
@@ -35,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="video-label">Feature Map</span>
                             <span class="video-label">Score Map</span>
                             <span class="video-label">Selected Patch</span>
+                            <span class="video-label">Trajectory</span>
                         </div>
                         <div id="mask-video-container" style="width: 100%; position: relative; aspect-ratio: 4678/532;">
                             <video id="mask-video" autoplay muted loop playsinline disablePictureInPicture controlsList="nodownload nofullscreen" style="width: 150%; height: auto;">
