@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const thumbnailData = [
         'HKU_HDR_circle_27.39_30.09',
-        'dsec_zurich_city_04_b_0.50_5.45',
         'dsec_zurich_city_04_b_1.50_6.45',
         'dsec_zurich_city_04_c_1.20_6.15',
         'dsec_zurich_city_04_e_1.05_6.00',
