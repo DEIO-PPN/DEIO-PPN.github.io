@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // https://easi3r.github.io/static/videos/mask/${name}.mp4
 
     const thumbnailData = [
-        'HKU_HDR_circle_27.39_30.09',
         'dsec_zurich_city_04_b_1.50_6.45',
+        'HKU_HDR_circle_27.39_30.09',
         'indoor_forward_3_davis_with_gt_32.81_36.94',
         'dynamic_6dof_15.75_20.40',
         'dsec_zurich_city_04_c_1.20_6.15',
