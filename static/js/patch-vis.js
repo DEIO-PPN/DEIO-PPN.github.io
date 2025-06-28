@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'HKU_HDR_circle_27.39_30.09',
         'dsec_zurich_city_04_b_1.50_6.45',
         'indoor_forward_3_davis_with_gt_32.81_36.94',
+        'dynamic_6dof_15.75_20.40',
         'dsec_zurich_city_04_c_1.20_6.15',
         'hdr_boxes_28.31_32.58',
         'dsec_zurich_city_04_e_1.05_6.00',
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'mocap-1d-trans_8.62_13.57',
         'mocap-6dof_7.34_12.29',
         'mocap-desk_9.11_14.06',
+        'HKU_aggressive_small_flip_24.06_28.35',
         'poster_6dof_29.69_34.06',
     ];
 
