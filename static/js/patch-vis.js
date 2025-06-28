@@ -24,6 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
         'mocap-desk_9.11_14.06',
         'HKU_aggressive_small_flip_24.06_28.35',
         'poster_6dof_29.69_34.06',
+        'boxes_6dof_34.30_38.86',
+        'desk_fast_1642650013.25_1642650016.55',
+        'dsec_zurich_city_04_d_1.20_6.15',
+        'hdr_fast_1642689816.84_1642689820.14',
+        'hku_hdr_tran_rota_92.29_94.78',
+        'mountain_fast_1642669379.23_1642669382.53',
+        'robot_fast_1642661817.52_1642661820.82',
+        'sofa_fast_1642516759.85_1642516763.15',
+        
     ];
 
     const thumbnailsHtml = thumbnailData.map(name => `
