@@ -241,7 +241,16 @@
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p>
-                        *******
+                        Event cameras offer a promising solution for pose tracking during high-speed motion and high dynamic range situations.
+                        Nevertheless, the sparse and motion-dependent nature of event data still poses significant challenges to both conventional and learning-based methods.
+                        To address this, we introduce DEMO, an innovative framework that integrates an event-based deep patch proposal network (PPN) with multi-factor optimization.
+                        Specifically, the PPN shares a full-event-plane convolutional backbone with the encoding network, enabling cost-free patch proposals for robust data association while mitigating receptive field misalignment.
+                        Additionally, a cascaded non-maximum suppression (CasNMS) sampling strategy is proposed, leveraging the predicted scores map from PPN to ensure broad patch distribution across discriminative regions.
+                        A unified sparse learning-optimization framework is further developed to seamlessly integrate the learning-based frontend with a factor graph optimization backend, decoupling the frontend via a differentiable bundle adjustment layer for flexible multiple constraint incorporation.
+                        The design enables tight integration of multi-factor optimization (e.g., IMU) and incorporates a proximity-based loop closure strategy to enhance global consistency. 
+                        Extensive experiments across six challenging event-based real-world benchmarks demonstrate the state-of-the-art performance of the DEMO system.
+                        Specifically, we achieve remarkable reductions in pose tracking error, decreasing it by 75% on the UZH-FPV and by 52% on the Stereo-HKU compared to existing event-based benchmarks. 
+                        Video demos and codes are available at: https://demo-eio.github.io/.
                     </p>
                 </div>
             </div>
